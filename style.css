@@ -9,7 +9,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: blueviolet;
+    background-color: #1B1726;
 }
 
 img{
@@ -102,7 +102,7 @@ img{
 
 .header-txt p{
     font-size: 17px;
-    color: cadetblue;
+    color: #e0e0e0;
     margin-bottom: 45px;
 }
 
@@ -117,7 +117,7 @@ img{
     border: radius 25px; ;
     margin-right: 25px;
     font-size: 17px;
-    color: antiquewhite;
+    color: #FFFFFF;
 }
 
 .btn-1:hover{
@@ -148,20 +148,25 @@ h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+    border-radius: 50px;
+    padding: 50px;
 }
 
 .product-1{
-    background-color: cadetblue;
+    background-color: #2A223A;
 }
 
 .product-txt{
     padding: 50 px 30px;
 }
 
-h3{
+.h3{
     font-size: 20px;
-    color: antiquewhite;
+    color: #FFFFFF;
     margin-bottom: 20px;
+    align-items: center;
+    justify-items: center;
+
 }
 
 .price{
@@ -184,11 +189,11 @@ h3{
 }
 
 .contact{
-    padding: 150 px 300 px;
+    padding: 150px 300px;
 }
 
 .contact-content{
-    background-color: blueviolet;
+    background-color: #2A223A;
     text-align: center;
     padding: 50px;
     border-radius: 50px;
@@ -202,7 +207,7 @@ form{
 
 input{
     padding: 18 px 25px;
-    background-color: aqua;
+    background-color:#3F3456;
     border: 0;
     border-radius: 25px;
     outline: none;
