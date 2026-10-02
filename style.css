@@ -343,7 +343,7 @@ input{
 }
 
 /* ===== Menú responsive (celulares y tablets) ===== */
-@media (max-width: 768px){
+@media (max-width: 991px){
 
     .menu label{
         display: block;
