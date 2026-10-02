@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRINCIPAL</title>
+    <title>GameStore — Inicio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="inicio">
 
         <div class="menu container">
             <a href="#" class="logo">LOGO</a>
             <input type="checkbox" id="menu">
             <label for="menu">
-                <img src="img/menu.png" class="menu-icono" alt="menu">
+                <img src="img/menu.png" class="menu-icono" alt="Abrir menú de navegación">
             </label>
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">INICIO</a></li>
-                    <li><a href="#">CATALOGO</a></li>
-                    <li><a href="#">ALQUILER</a></li>
-                    <li><a href="#">CREACION DE VIDEOJUEGOS</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#catalogo">CATALOGO</a></li>
+                    <li><a href="#alquiler">ALQUILER</a></li>
+                    <li><a href="#creacion">CREACION DE VIDEOJUEGOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,39 +31,101 @@
             <div class="header-txt">
                 <h1> ELIGE <span> CUALQUIER JUEGO </span> <br>DE TU PREFERENCIA</h1>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque excepturi totam obcaecati debitis omnis magnam sit fugiat corporis commodi provident blanditiis ex quo officia vero natus, temporibus ipsum id laboriosam.
+                    Encuentra miles de títulos para PC y consola, desde los últimos lanzamientos hasta los clásicos que nunca pasan de moda. Compra o alquila con total seguridad, recibe tu pedido en tiempo récord y vive la experiencia gamer que realmente mereces.
                 </p>
                 <div class="butons">
-                    <a href="#" class="btn-1">INFORMACION</a>
-                    <a href="#" class="btn-1">JUEGOS</a>
+                    <a href="#informacion" class="btn-1">INFORMACION</a>
+                    <a href="#popular" class="btn-1">JUEGOS</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="popular container">
+    <section class="popular container" id = popular>
 
         <h2>JUEGOS POPULARES</h2>
 
         <div class="popular-content">
-            <img src="img/g1.jpg" alt="">
-            <img src="img/g2.jpg" alt="">
-            <img src="img/g3.jpg" alt="">
-            <img src="img/g4.jpg" alt="">
-            <img src="img/g5.jpg" alt="">
-            <img src="img/g6.jpg" alt="">
-            <img src="img/g7.jpg" alt="">
+            <img src="img/g1.jpg" alt="Portada del juego popular 1">
+            <img src="img/g2.jpg" alt="Portada del juego popular 2">
+            <img src="img/g3.jpg" alt="Portada del juego popular 3">
+            <img src="img/g4.jpg" alt="Portada del juego popular 4">
+            <img src="img/g5.jpg" alt="Portada del juego popular 5">
+            <img src="img/g6.jpg" alt="Portada del juego popular 6">
+            <img src="img/g7.jpg" alt="Portada del juego popular 7">
         </div>
     </section>
 
-    <main class="product container">
+    <section class="info container" id="informacion">
+
+        <div class="info-content">
+
+            <div class="info-text">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>
+                    Somos una tienda especializada en venta y alquiler de videojuegos para PC y consola. Trabajamos todos los días para que encuentres lo que buscas, pagues un precio justo y lo recibas sin esperas innecesarias.
+                </p>
+            </div>
+
+            <div class="info-grid">
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Compra o alquiler</h3>
+                    <p>Elige comprar tu juego de forma definitiva o alquilarlo por el tiempo que necesites, sin letra pequeña ni cargos ocultos.</p>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="1" y="4" width="22" height="16" rx="2"></rect>
+                            <line x1="1" y1="10" x2="23" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3>Pago seguro</h3>
+                    <p>Aceptamos tarjetas, billeteras digitales y transferencia bancaria. Todas tus transacciones están protegidas de principio a fin.</p>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                    <h3>Entrega inmediata</h3>
+                    <p>Recibe el código o el acceso a tu juego apenas se confirma el pago, sin plazos de espera ni trámites adicionales.</p>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Garantía total</h3>
+                    <p>Si un juego presenta algún problema, lo cambiamos o te devolvemos tu dinero. Tu satisfacción está garantizada.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <main class="product container" id="catalogo">
 
         <h2>TODOS LOS JUEGOS</h2>
 
-        <div class="product-content">
+                <div class="product-content">
 
-            <div class="product-1">
-                <img src="img/l1.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l1.jpg" alt="Portada del juego HALO">
                 <div class="product-txt">
                     <h3> HALO </h3>
                     <div class="price">
@@ -71,21 +133,21 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l2.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l2.jpg" alt="Portada del juego FIFA 26">
                 <div class="product-txt">
-                    <h3></h3>
+                    <h3>FIFA 26</h3>
                     <div class="price">
                         <p> S/.69.90</p>
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l3.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l3.jpg" alt="Portada del juego CLASH ROYALE">
                 <div class="product-txt">
                     <h3> CLASH ROYALE</h3>
                     <div class="price">
@@ -93,10 +155,10 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l4.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l4.jpg" alt="Portada del juego JUEGO LOREM">
                 <div class="product-txt">
                     <h3>JUEGO LOREM</h3>
                     <div class="price">
@@ -104,10 +166,10 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l5.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l5.jpg" alt="Portada del juego JUEGO LOREM">
                 <div class="product-txt">
                     <h3>JUEGO LOREM</h3>
                     <div class="price">
@@ -115,10 +177,10 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l6.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l6.jpg" alt="Portada del juego JUEGO LOREM">
                 <div class="product-txt">
                     <h3>JUEGO LOREM</h3>
                     <div class="price">
@@ -126,10 +188,10 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l7.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l7.jpg" alt="Portada del juego CRASH BANDICOOT">
                 <div class="product-txt">
                     <h3> CRASH BANDICOOT</h3>
                     <div class="price">
@@ -137,10 +199,10 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l8.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l8.jpg" alt="Portada del juego JUEGO LOREM">
                 <div class="product-txt">
                     <h3>JUEGO LOREM</h3>
                     <div class="price">
@@ -148,10 +210,10 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
 
-            <div class="product-1">
-                <img src="img/l9.jpg" alt="">
+            <article class="product-1">
+                <img src="img/l9.jpg" alt="Portada del juego JUEGO LOREM">
                 <div class="product-txt">
                     <h3>JUEGO LOREM</h3>
                     <div class="price">
@@ -159,17 +221,18 @@
                         <a href="#" class="btn-2">COMPRAR</a>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
 
     </main>
 
-    <section class="contact container">
+    <section class="contact container" id="contacto">
 
         <div class="contact-content">
             <h3>Subscripcion</h3>
-            <form> 
-                <input type="email" placeholder="Escribe tu correo">
+            <form>
+                <label for="email-subs" class="visually-hidden">Correo electrónico</label>
+                <input type="email" id="email-subs" name="email" placeholder="Escribe tu correo" required>
                 <input type="submit" class="btn-3" value="Enviar">
             </form>
         </div>
@@ -179,17 +242,17 @@
     <footer class="footer container">
 
         <div class="link">
-            <a href="logo">LOGO</a>
+            <a href="#inicio">LOGO</a>
         </div>
 
         <div class="link">
 
             <ul>
-                <li><a href="#">INICIO</a></li>
-                <li><a href="#">CATALOGO</a></li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#catalogo">CATALOGO</a></li>
                 <li><a href="#">ALQUILER</a></li>
                 <li><a href="#">CREACION DE VIDEOJUEGOS</a></li>
-                <li><a href="#">CONTACTO</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
             </ul>
 
         </div>
